@@ -60,3 +60,12 @@ section {
     color: rgba(white, 1);
     text-decoration-line: underline;
 }
+
+header {
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
+            top: 58%;
+        }
+    }
+}

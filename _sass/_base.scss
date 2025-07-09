@@ -91,7 +91,7 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: lighten($theme-dark, 30%)
+                color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(0,66,33,0.7);
+            color: lighten(rgba(0,66,33,0.7), 30%);
             &:hover {
                 color: white;
             }

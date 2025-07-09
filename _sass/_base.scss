@@ -91,7 +91,7 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: lighten($theme-dark, 30%)
                 &:hover {
                     color: $theme-primary;
                 }
